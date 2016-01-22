@@ -1,0 +1,12 @@
+[
+  {
+    "name": "./tasks/heartbeat",
+    "description": "A heartbeat task",
+    "schedule": "1 * * * * * *"
+  },
+  {
+    "name": "./tasks/compact",
+    "description": "A couchdb compact task",
+    "schedule": "* 20 * * * * *"
+  }
+]

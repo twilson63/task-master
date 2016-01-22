@@ -1,0 +1,28 @@
+{
+  "name": "cf-lamda",
+  "version": "1.0.0",
+  "description": "Schedule a time to invoke a task that is wrapped in a npm module:",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test",
+    "start": "babel-node index.js"
+  },
+  "keywords": [],
+  "author": "Tom",
+  "license": "ISC",
+  "dependencies": {
+    "@twilson63/compact": "^1.0.1",
+    "node-crontab": "0.0.8",
+    "ramda": "^0.19.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "tap": "^5.1.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
