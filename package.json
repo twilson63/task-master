@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@twilson63/compact": "^1.0.1",
+    "cfups": "^1.0.1",
     "node-crontab": "0.0.8",
     "ramda": "^0.19.1"
   },
