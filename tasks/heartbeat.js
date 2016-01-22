@@ -1,1 +1,1 @@
-module.exports = (cb) => cb(null, 'heart beat...')
+module.exports = (inputs, cb) => cb(null, 'heart beat...')

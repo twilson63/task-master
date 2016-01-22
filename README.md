@@ -13,8 +13,11 @@ Schedule a time to invoke a task that is wrapped in a npm module:
 
 # What should the module.exports for a schedule function look like?
 
+- inputs (Array)
+- callback (Function)
+
 ```
-module.exports = (cb) => cb(null, true)
+module.exports = (inputs, cb) => cb(null, true)
 ```
 
 The module exports should always provide a callback function as the last parameter.

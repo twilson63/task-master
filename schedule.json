@@ -2,11 +2,13 @@
   {
     "name": "./tasks/heartbeat",
     "description": "A heartbeat task",
-    "schedule": "1 * * * * * *"
+    "schedule": "1 * * * * * *",
+    "inputs": []
   },
   {
     "name": "./tasks/compact",
     "description": "A couchdb compact task",
-    "schedule": "* 20 * * * * *"
+    "schedule": "* 20 * * * * *",
+    "inputs": []
   }
 ]

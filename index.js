@@ -10,8 +10,9 @@ const handler = curry((name, err, result) => {
 })
 
 const scheduleFn = task => {
-  var t = require(task.name)
-  crontab.scheduleJob(task.schedule, t, [handler(task.name)])
+  var t = curry(require(task.name))
+
+  crontab.scheduleJob(task.schedule, t(t.inputs), [handler(task.name)])
 }
 
 // register schedules

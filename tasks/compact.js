@@ -2,7 +2,7 @@ var compact = require('@twilson63/compact')
 var cfups = require('cfups')
 var { compose, prop } = require('ramda')
 
-module.exports = (cb) =>
+module.exports = (inputs, cb) =>
   compose(
     compact,
     prop('host'),
